@@ -1,7 +1,5 @@
 name: time
 on:
-  push:
-    branches: [master]
   schedule:
     - cron: '* * * * *'
 jobs:
