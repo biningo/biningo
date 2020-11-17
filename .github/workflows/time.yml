@@ -3,7 +3,7 @@ on:
   push:
     branches: [master]
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 7 * * *'
 jobs:
   update-time:
     # The type of runner that the job will run on
