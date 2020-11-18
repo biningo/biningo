@@ -1,9 +1,9 @@
-name: time
+name: weibo_hot
 on:
   push:
     branches: [master]
   schedule:
-    - cron: '15 1 * * *'
+    - cron: '0 23 * * *'
 jobs:
   update-time:
     # The type of runner that the job will run on
@@ -13,10 +13,15 @@ jobs:
       - run: |
           git config --global user.email "biningo@yeah.net"
           git config --global user.name "lyer"
-      - name: write time
-        run: echo '## '$(date) > README.md
+      - name: weibo_crawler
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+        run: |
+          pip3 install -r requirements.txt
+          python3 hot_search_crawler.py
       - name: push
         run: |
           git add README.md
-          git commit -m "update time"
+          git commit -m "update readme"
           git push
