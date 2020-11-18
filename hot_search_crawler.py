@@ -10,8 +10,8 @@ selector = etree.HTML(resp.text)
 urls = selector.xpath('//td[@class="td-02"]/a/@href')
 urls = [bash_url+url for url in urls]
 titles = selector.xpath('//td[@class="td-02"]/a/text()')
-content=''
-for url,title in zip(urls[:5],titles[:5]):
+content='### :fire:微博热搜<br>\n'
+for url,title in zip(urls,titles):
     content += '- <a href="'+url+'">'+title+'</a><br>\n'
 
 with open('README.md','w') as f:
