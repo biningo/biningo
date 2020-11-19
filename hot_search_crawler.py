@@ -11,7 +11,7 @@ urls = selector.xpath('//td[@class="td-02"]/a/@href')
 urls = [bash_url+url for url in urls]
 titles = selector.xpath('//td[@class="td-02"]/a/text()')
 content='### :fire:微博热搜<br>\n'
-for url,title in zip(urls[:10],titles[:10]):
+for url,title in zip(urls[:15],titles[:15]):
     content += '- <a href="'+url+'">'+title+'</a><br>\n'
 
 with open('README.md','w') as f:
