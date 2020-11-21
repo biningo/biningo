@@ -3,7 +3,7 @@ on:
   push:
     branches: [master]
   schedule:
-    - cron: '0 */5 * * *'
+    - cron: '0 */10 * * *'
 jobs:
   crawler_push:
     # The type of runner that the job will run on
