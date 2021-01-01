@@ -2,8 +2,6 @@ name: weibo_hot
 on:
   push:
     branches: [master]
-  schedule:
-    - cron: '0 0 * * *'
 jobs:
   crawler_push:
     # The type of runner that the job will run on
