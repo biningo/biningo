@@ -6,5 +6,7 @@
 ![Go](https://img.shields.io/badge/-Go-black?logo=go&style=social)&nbsp;&nbsp;
 ![MySQL](https://img.shields.io/badge/-MySQL-black?logo=mysql&style=social)&nbsp;&nbsp;
 ![Git](https://img.shields.io/badge/-Git-black?logo=git&style=social)&nbsp;&nbsp;
-![Redis](https://img.shields.io/badge/-Redis-black?logo=redis&style=social)&nbsp;&nbsp;![](https://img.shields.io/badge/-Docker-black?logo=docker&style=social)&nbsp;&nbsp;
-  <img height=180 src="https://github-readme-stats.vercel.app/api?username=biningo&show_icons=true&theme=gotham">
+![Redis](https://img.shields.io/badge/-Redis-black?logo=redis&style=social)&nbsp;&nbsp;
+![Docker](https://img.shields.io/badge/-Docker-black?logo=docker&style=social)&nbsp;&nbsp;
+![Kubernetes](https://img.shields.io/badge/-Kubernetes-black?logo=kubernetes&style=social)&nbsp;&nbsp;
+<img height=180 src="https://github-readme-stats.vercel.app/api?username=biningo&show_icons=true&theme=gotham">
